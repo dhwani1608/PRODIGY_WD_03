@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9BC1BC;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    text-shadow: 4px 4px 5px #331832;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #D81E5B;
+    text-shadow: 4px 4px 5px yellow;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+}
+
+main p {
+    font-size: 1.5rem;
+    color: #D81E5B;
+    text-shadow: 4px 4px 5px yellow;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play button{
+    height: 4rem;
+    width: 10rem;
+    font-size: 3vmin;
+    background-color: #331832;
+    color: #D81E5B;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    cursor: pointer;
+    margin: 1rem 3rem 0 2rem; 
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 15vmin;
+    color: #E18335;
+    background-color:#D9D61E;
+}
+
+#reset{
+    height: 4rem;
+    width: 10rem;
+    font-size: 3vmin;
+    background-color: #331832;
+    color: #D81E5B;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+#new-btn {
+    height: 4rem;
+    width: 10rem;
+    font-size: 3vmin;
+    background-color: #331832;
+    color: #D81E5B;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+#msg {
+    color: #E18335;
+    font-size: 7vmin;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.hide{
+    display: none;
+}
